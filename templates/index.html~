@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Song Belong to Tom Delonge</title>
+    </head>
+    <body>
+        <table align="center">
+            <tr><td align="center"><h1>HELLO</h1></td></tr>
+            <tr><td align="center">
+                <form method="post">
+                    <input type="text" id="song" />
+                </form>
+            </td></tr>
+        </table>
+    </body>
+</html>

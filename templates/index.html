@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Song Belong to Tom Delonge</title>
+    </head>
+    <body>
+        <table align="center">
+            <tr><td align="center"><h1>Does this song belong to Tom DeLonge?</h1></td></tr>
+            <tr><td align="center">
+                <form method="post">
+                    <input type="text" name="song" />
+                    <button type="submit" name="song">Does it?</button>
+                </form>
+            </td></tr>
+            <tr>
+                <td align="center" style="padding: 40px 30px 40px 30px">
+                  {% if belong == True %}
+                    <b>Yes!</b> That song does belong to Tom DeLonge!
+                  {% elif belong == False %}
+                    <b>No!</b> That song does not belong to Tom DeLonge!
+                  {% else %}
+                    
+                  {% endif %}
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
